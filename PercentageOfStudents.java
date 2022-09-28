@@ -17,7 +17,7 @@ public class PercentageOfStudents {
         System.out.println("Enter total value=");
         double total=sc.nextInt();
         int sum=a+b+c+d+e;
-        double percentage=(sum/total)*100;;
+        double percentage=(sum/total)*100;
         System.out.println("The percentage is ="+percentage);
 
     }
