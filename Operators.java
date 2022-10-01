@@ -49,5 +49,6 @@ public class Operators{
 //   100
 //   ---
 //   111                                 --Here if one condition is true then other will also change to true
+
         }
 }
