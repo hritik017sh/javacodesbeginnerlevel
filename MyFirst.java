@@ -1,7 +1,7 @@
-public class MyFirst {
+import java.lang.*;
+class Myfirst{
     public static void main(String args[])
     {
-        System.out.println("hello hritik sharma ");
-
+        System.out.println("Hello Hritik sharma");
     }
 }
