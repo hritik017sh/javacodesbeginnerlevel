@@ -20,7 +20,8 @@ class new3Scaner{
 //        String a=sc.nextLine();
 //        System.out.println("Hii "+a);
 
-        sc.useRadix(3);
+        //binary to decimal
+        sc.useRadix(2);
                 int x=sc.nextInt();
         System.out.println(x);
 
