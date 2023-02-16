@@ -1,4 +1,5 @@
 import java.lang.*;
+import java.sql.SQLOutput;
 import java.util.*;
 
 class new3Scaner{
@@ -20,10 +21,16 @@ class new3Scaner{
 //        String a=sc.nextLine();
 //        System.out.println("Hii "+a);
 
-        //binary to decimal
-        sc.useRadix(2);
-                int x=sc.nextInt();
-        System.out.println(x);
+//        //binary to decimal
+//        sc.useRadix(2);
+//                int x=sc.nextInt();
+//        System.out.println(x);
+
+//        //octal value
+//        sc.useRadix(8);
+//        int x=sc.nextInt();
+//        System.out.println(x);
+
 
 
 
