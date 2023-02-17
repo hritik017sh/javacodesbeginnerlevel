@@ -12,9 +12,11 @@ class DataSize {
 //        System.out.println("float min value="+ Float.MIN_VALUE);
 //        System.out.println("flaot value"+ Float.BYTES);
 
-        System.out.println("Bytes max value="+ Byte.MAX_VALUE);
-        System.out.println("Bytes min value="+ Byte.MIN_VALUE);
-        System.out.println("Bytes value="+ Byte.BYTES);
+//        System.out.println("Bytes max value="+ Byte.MAX_VALUE);
+//        System.out.println("Bytes min value="+ Byte.MIN_VALUE);
+//        System.out.println("Bytes value="+ Byte.BYTES);
+
+//        System.out.println("char max value="+ Character.MAX_VALUE);
     }
 
 
