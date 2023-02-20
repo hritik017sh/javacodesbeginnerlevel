@@ -10,6 +10,7 @@ public class Variable {
         char c ='A';
         double d=23.456;
         long l=45555;
+        short s=100;
 
         System.out.println(b);
         System.out.println(i1);
@@ -17,6 +18,7 @@ public class Variable {
         System.out.println(c);
         System.out.println(d);
         System.out.println(l);
+        System.out.println(s);
     }
 
 }
