@@ -11,7 +11,7 @@ public class Variable {
         double d=23.456;
         long l=45555;
         short s=100;
-
+         boolean v=true;
         System.out.println(b);
         System.out.println(i1);
         System.out.println(f);
@@ -19,6 +19,7 @@ public class Variable {
         System.out.println(d);
         System.out.println(l);
         System.out.println(s);
+        System.out.println(v);
     }
 
 }
