@@ -34,6 +34,11 @@ public class IntegralDataTypes {
              char mychar=(char) i;
              System.out.println(mychar);
 
+            System.out.println("-----------");
+            int r=12;
+            float myfloat=r;
+            System.out.println(myfloat);
+
 
 
         }
