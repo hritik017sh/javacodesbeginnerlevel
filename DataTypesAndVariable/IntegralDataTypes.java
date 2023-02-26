@@ -39,6 +39,12 @@ public class IntegralDataTypes {
             float myfloat=r;
             System.out.println(myfloat);
 
+            System.out.println("-----------");
+            int s=15;
+            float mafloat=s;
+            System.out.println(mafloat);
+
+
 
 
         }
