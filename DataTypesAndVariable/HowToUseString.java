@@ -17,7 +17,12 @@ public class HowToUseString {
         String smallletters="hritik sharmA";
         String ustring=smallletters.toUpperCase();
         System.out.println(ustring);
-        System.out.println(ustring);
+
+
+        //how to find string letters
+        String letters="How many letters";
+        int totalintletter=letters.length();
+        System.out.println(totalintletter);
 
 
     }
