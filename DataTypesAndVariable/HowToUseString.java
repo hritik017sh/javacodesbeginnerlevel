@@ -24,6 +24,11 @@ public class HowToUseString {
         int totalintletter=letters.length();
         System.out.println(totalintletter);
 
+        //how to find string letters
+        //String letters="How many letters";
+       // int totalintletter=letters.length();
+       // System.out.println(totalintletter);
+
 
     }
 }
