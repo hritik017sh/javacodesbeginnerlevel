@@ -1,4 +1,4 @@
-package DataTypesAndVariable;
+import java.util.*;
 
 public class HowToUseString {
     public static void main(String args[])
@@ -19,15 +19,18 @@ public class HowToUseString {
         System.out.println(ustring);
 
 
-        //how to find string letters
-        String letters="How many letters";
-        int totalintletter=letters.length();
-        System.out.println(totalintletter);
+       String st="hritik";
+       int val=st.length();
+       System.out.println(val);
 
-        //how to find string letters
-        //String letters="How many letters";
-       // int totalintletter=letters.length();
-       // System.out.println(totalintletter);
+       //string for adding two strings
+        String s1="hritik";
+        String s2="naveen";
+        s1+=s2;
+        System.out.println(s1);
+        
+
+
 
 
     }
