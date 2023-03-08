@@ -29,8 +29,10 @@ public class HowToUseString {
         s1+=s2;
         System.out.println(s1);
 
-        //String
-
+        //how to use trim in string
+        String a1="        hello   master";
+        String Stripleading=a1.stripLeading();
+        System.out.println(Stripleading);
 
 
 
