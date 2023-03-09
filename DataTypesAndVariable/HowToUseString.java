@@ -34,6 +34,10 @@ public class HowToUseString {
         String Stripleading=a1.stripLeading();
         System.out.println(Stripleading);
 
+        String a2="  Hello  Hritik Welcome Back";
+        String stir=a2.stripIndent();
+        System.out.println(stir);
+
 
 
     }
