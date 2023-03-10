@@ -38,6 +38,10 @@ public class HowToUseString {
         String stir=a2.stripIndent();
         System.out.println(stir);
 
+        String a3="hello  nokia";
+        int  sitr=a3.length();
+        System.out.println(sitr);
+
 
 
     }
