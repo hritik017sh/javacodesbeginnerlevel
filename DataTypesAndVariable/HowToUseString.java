@@ -19,11 +19,7 @@ public class HowToUseString {
         System.out.println(ustring);
 
 
-       String st="hritik";
-       int val=st.length();
-       System.out.println(val);
-
-       //string for adding two strings
+        //string for adding two strings
         String s1="hritik";
         String s2="naveen";
         s1+=s2;
@@ -38,14 +34,51 @@ public class HowToUseString {
         String stir=a2.stripIndent();
         System.out.println(stir);
 
-        String a3="hello  nokia";
-        int  sitr=a3.length();
-        System.out.println(sitr);
-
-        //how to concetinat
+        //how to concatination to string
         String s="Sachin";
         s=s.concat(" hritik");
         System.out.println(s);
+
+        //another concatinationn way
+        String naveen="Naveen";
+        String sharma=" Sharma";
+        System.out.println(naveen.concat( sharma));
+
+        //how to add two string
+        String myname="hii my name is ";
+        String akash="Akash";
+        System.out.println(myname+""+akash);
+
+
+
+        //how to find index of string
+        String index="Akash kumar is my  Brother";
+        System.out.println(index.indexOf("my"));
+
+        //how to add string and int
+        int x=13;
+        String x1="14";
+        String x3=x+x1;
+        System.out.println(x3);
+
+        //backslash escape character
+        String addQuote="Hritik sharma is all time \"legend\" player";
+        System.out.println(addQuote);
+
+        //Max value in integer
+        System.out.println(Math.max(6,10));
+
+        //Min value in integer
+        System.out.println(Math.min(56,65));
+
+        //How to make negative value to positive value
+        System.out.println(Math.abs(-56.6));
+
+        //how to make random value
+        System.out.println(Math.random());
+
+        //how to find random value from 1 to 100
+        System.out.println(Math.random()*100);
 
 
 
