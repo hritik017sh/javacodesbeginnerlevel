@@ -42,6 +42,11 @@ public class HowToUseString {
         int  sitr=a3.length();
         System.out.println(sitr);
 
+        //how to concetinat
+        String s="Sachin";
+        s=s.concat(" hritik");
+        System.out.println(s);
+
 
 
     }
