@@ -80,6 +80,8 @@ public class HowToUseString {
         //how to find random value from 1 to 100
         System.out.println(Math.random()*100);
 
+        System.out.println(Math.random());
+
 
 
     }
