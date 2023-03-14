@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 public class HowToUseString {
     public static void main(String args[])
     {
@@ -82,7 +83,13 @@ public class HowToUseString {
 
         System.out.println(Math.random());
 
+        String abc="hritik sharma";
+        System.out.println(abc.length());
+        }
+
+
+
 
 
     }
-}
+
