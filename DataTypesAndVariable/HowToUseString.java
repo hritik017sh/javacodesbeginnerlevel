@@ -85,6 +85,9 @@ public class HowToUseString {
 
         String abc="hritik sharma";
         System.out.println(abc.length());
+
+        String rajan="Rajan Bakshi";
+        System.out.println(rajan+" is my friend");
         }
 
 
