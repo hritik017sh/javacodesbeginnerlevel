@@ -88,6 +88,10 @@ public class HowToUseString {
 
         String rajan="Rajan Bakshi";
         System.out.println(rajan+" is my friend");
+
+        String raja="Hritik sharma";
+        System.out.println(raja+" is my friend");
+
         }
 
 
