@@ -92,6 +92,9 @@ public class HowToUseString {
         String raja="Hritik sharma";
         System.out.println(raja+" is my friend");
 
+        String raj="Hritik sharma";
+        System.out.println(raj+" is my friend");
+
         }
 
 
