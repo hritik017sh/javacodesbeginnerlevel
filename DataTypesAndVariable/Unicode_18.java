@@ -12,6 +12,11 @@ public class Unicode_18
 
         for(char devnagri=0X0900;devnagri<=0X097f;devnagri++)
          System.out.println(" "+devnagri);
-    }
+
+        //Tamil language with the help of unicode
+        for(char tamil=0X0BD0;tamil<=0X0BD7;tamil++)
+            System.out.println(""+tamil);
+
+           }
 
 }
