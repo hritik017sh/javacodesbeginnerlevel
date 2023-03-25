@@ -15,6 +15,11 @@ public class PrecedenceAndAssociativity_29
 
         System.out.println(c);
 
+        float f5=78.8f,d5=78.9f;
+        float fa=f+d;
+        System.out.println(fa);
+
+
 
 
     }
