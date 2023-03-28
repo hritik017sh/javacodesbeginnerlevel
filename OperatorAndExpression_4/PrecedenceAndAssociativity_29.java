@@ -31,18 +31,43 @@ public class PrecedenceAndAssociativity_29
 //       float area=base*height/2 ;
 //        System.out.println("The area of triangle is= "+area);
 
-        //how to find 3 sides of triangle
-       double aa,bb,cc;
-        System.out.println("Enter 3 sides to find area of triange=");
-        aa=sc.nextDouble();
-        bb=sc.nextDouble();
-        cc=sc.nextDouble();
-        Double s;
+//        //how to find 3 sides of triangle
+//       double aa,bb,cc;
+//        double s;
+//        double area;
+//        System.out.println("Enter 3 sides to find area of triange=");
+//        aa=sc.nextDouble();
+//        bb=sc.nextDouble();
+//        cc=sc.nextDouble();
+//
+//        s=(aa+bb+cc)/2;
+//        area=Math.sqrt(s*(s-aa)*(s-bb)*(s-cc));
+//        System.out.println("Area is ="+ area);
 
-        double area;
-        s=(aa+bb+cc)/2;
-        area=Math.sqrt(s*(s-aa)*(s-bb)*(s-cc));
-        System.out.println("Area is ="+ area);
+//        //How to solver quadratic equation
+//        System.out.println("Enter the value of a b and c=");
+//        int a=sc.nextInt();
+//        int b=sc.nextInt();
+//        int c=sc.nextInt();
+//
+//        double r1=(-b+Math.sqrt(b*b-4*a*c))/(2*a);
+//        double r2=(-b-Math.sqrt(b*b-4*a*c))/(2*a);
+//    System.out.println(r1);
+//    System.out.println(r2);
+
+    //HOw to find length breadth height (rectangle shape)
+        System.out.println("Enter three numbers=");
+        int length=sc.nextInt();
+        int breadth=sc.nextInt();
+        int height=sc.nextInt();
+
+        float totalarea,volume;
+
+        totalarea=2*(length*breadth+length*height+breadth*height);
+        volume=length*breadth*height;
+        System.out.println("Totalarea is="+totalarea);
+        System.out.println("volume is="+volume);
+
 
 
 
