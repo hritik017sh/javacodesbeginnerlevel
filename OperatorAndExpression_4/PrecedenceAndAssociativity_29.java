@@ -22,7 +22,6 @@ public class PrecedenceAndAssociativity_29
 //        float fa=f*d;
 //        System.out.println(fa);
 
-//
 //        // how to find the area of  triangle
        Scanner sc=new Scanner(System.in);
 //        System.out.println("Enter two value for area of trianle=");
@@ -56,17 +55,24 @@ public class PrecedenceAndAssociativity_29
 //    System.out.println(r2);
 
     //HOw to find length breadth height (rectangle shape)
-        System.out.println("Enter three numbers=");
-        int length=sc.nextInt();
-        int breadth=sc.nextInt();
-        int height=sc.nextInt();
+//        System.out.println("Enter three numbers=");
+//        int length=sc.nextInt();
+//        int breadth=sc.nextInt();
+//        int height=sc.nextInt();
+//
+//        float totalarea,volume;
+//
+//        totalarea=2*(length*breadth+length*height+breadth*height);
+//        volume=length*breadth*height;
+//        System.out.println("Totalarea is="+totalarea);
+//        System.out.println("volume is="+volume);
 
-        float totalarea,volume;
+    // How to use PreIncrement and PostIncrement
 
-        totalarea=2*(length*breadth+length*height+breadth*height);
-        volume=length*breadth*height;
-        System.out.println("Totalarea is="+totalarea);
-        System.out.println("volume is="+volume);
+        int x=8;
+        int y=++x*7;
+        System.out.println(y);
+        System.out.println(x);
 
 
 
