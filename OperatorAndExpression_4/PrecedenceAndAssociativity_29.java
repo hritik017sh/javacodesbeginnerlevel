@@ -7,11 +7,11 @@ public class PrecedenceAndAssociativity_29
 {
     public static void main(String args[])
     {
-//       // How to use airthmetic operators of +(sum)
-//        short  a=45,b=90;
-//        int c=a+b;
-//        System.out.println(c);
-//
+   //    How to use airthmetic operators of +(sum)
+        short  a=45,b=90;
+        int c=a+b;
+        System.out.println(c);
+
 //       //how to use divide in airthmetic
 //        float f=178.8f,d=78.9f;
 //        float fl=f/d;
@@ -73,6 +73,8 @@ public class PrecedenceAndAssociativity_29
         int y=++x*7;
         System.out.println(y);
         System.out.println(x);
+
+
 
 
 
