@@ -95,11 +95,14 @@ public class PrecedenceAndAssociativity_29
 //     System.out.println(z);     //first add
 
 //       How to use right shift operator
-     int a=10;                //   00001010
-     int z=a>>1;             //    00000101
-      System.out.println(z);
+//     int a=10;                //   00001010
+//     int z=a>>1;             //    00000101
+//      System.out.println(z);
 
-
+//        Not operator
+     int a=10;
+     int z=~a;
+     System.out.println(z);
 
 
 
