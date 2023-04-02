@@ -90,10 +90,14 @@ public class PrecedenceAndAssociativity_29
 //        System.out.println(c);    //  00000010
 
 //        How to use left shift operator
-     int a=10;
-     int z=a<<1;
-     System.out.println(z);
+//     int a=10;                  //   00001010
+//     int z=a<<1;               //   00010100
+//     System.out.println(z);     //first add
 
+//       How to use right shift operator
+     int a=10;                //   00001010
+     int z=a>>1;             //    00000101
+      System.out.println(z);
 
 
 
