@@ -80,11 +80,14 @@ public class PrecedenceAndAssociativity_29
 //            System.out.println(c);   //  00001000
 
 //       Or operator
-        int a=8,b=10;                 //00001000
-        int c=a|b;                   // 00001010
-        System.out.println(c);      //  00001010
+//        int a=8,b=10;                 //00001000
+//        int c=a|b;                   // 00001010
+//        System.out.println(c);      //  00001010
 
-
+//      Xor operator
+        int a=8,b=0b1010;           //00001000
+        int c=a^b;                 // 00001010
+        System.out.println(c);    //  00000010
 
 
 
