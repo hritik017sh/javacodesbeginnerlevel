@@ -85,9 +85,15 @@ public class PrecedenceAndAssociativity_29
 //        System.out.println(c);      //  00001010
 
 //      Xor operator
-        int a=8,b=0b1010;           //00001000
-        int c=a^b;                 // 00001010
-        System.out.println(c);    //  00000010
+//        int a=8,b=0b1010;           //00001000
+//        int c=a^b;                 // 00001010
+//        System.out.println(c);    //  00000010
+
+//        How to use left shift operator
+     int a=10;
+     int z=a<<1;
+     System.out.println(z);
+
 
 
 
