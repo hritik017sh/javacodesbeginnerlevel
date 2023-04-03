@@ -105,12 +105,12 @@ public class PrecedenceAndAssociativity_29
 //     System.out.println(z);
 
     //Swapping with the help of Xor
-     int a=56,b=89;
-     a=a^b;
-     b=a^b;
-     a=a^b;
-     System.out.println("The value of a is ="+a);
-     System.out.println("The value of b is ="+b);
+//     int a=56,b=89;
+//     a=a^b;
+//     b=a^b;
+//     a=a^b;
+//     System.out.println("The value of a is ="+a);
+//     System.out.println("The value of b is ="+b);
 
 
 
