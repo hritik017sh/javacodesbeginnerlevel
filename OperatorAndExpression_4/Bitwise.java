@@ -40,10 +40,17 @@ public class Bitwise {
 
 
 //         --How to clear the  ith bit--
+//        int num=0b11000;
+//        int i=3;
+//        int mask=1<<i;
+//        num=num^mask;
+//        System.out.println(Integer.toBinaryString(num));
+
+//        --another method--
         int num=0b11000;
         int i=3;
-        int mask=1<<i;
-        num=num^mask;
+        int mask=~(1<<i);
+        num=num&mask;
         System.out.println(Integer.toBinaryString(num));
 
     }
