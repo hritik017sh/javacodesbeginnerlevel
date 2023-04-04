@@ -18,14 +18,27 @@ public class Bitwise {
 
 
 //   Find the ith bit of any number
-        int b=0b1110;
-       int  i=0;
-        if((1<<i&b)==0)
-        {
-            System.out.println("the no is 0");
+//        int b=0b1110;
+//       int  i=5;
+//        if((1<<i&b)==0)
+//        {
+//            System.out.println("the no is 0");
+//
+//        }
+//        else
+//            System.out.println("The no is 1");
 
-        }
-        else
-            System.out.println("The no is 1");
+//        int mask=1<<i;
+//        boolean d =(mask&b)==0 ;
+//        System.out.println(d);
+
+
+        //Set ith bit as 1 with the help of bitwise
+        int n=0b10100;
+        int i=3;
+        int mask=1<<i;
+        n=n|mask;
+        System.out.println(Integer.toBinaryString(n));
+
     }
 }
