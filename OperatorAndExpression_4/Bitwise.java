@@ -30,13 +30,13 @@ public class Bitwise {
 
 
 
-
 //       --Set ith bit as 1 with the help of bitwise--
 //        int n=0b10100;
 //        int i=3;
 //        int mask=1<<i;
 //        n=n|mask;
 //        System.out.println(Integer.toBinaryString(n));
+
 
 
 //         --How to clear the  ith bit--
@@ -46,12 +46,30 @@ public class Bitwise {
 //        num=num^mask;
 //        System.out.println(Integer.toBinaryString(num));
 
-//        --another method--
-        int num=0b11000;
-        int i=3;
-        int mask=~(1<<i);
-        num=num&mask;
-        System.out.println(Integer.toBinaryString(num));
+
+//          --another method--
+//        int num=0b11000;
+//        int i=3;
+//        int mask=~(1<<i);
+//        num=num&mask;
+//        System.out.println(Integer.toBinaryString(num));
+
+
+
+ // how to make every last one to zero with the help of bitwise
+
+     int num=0b110001;
+     int mask=num&num-1;
+     System.out.println(Integer.toBinaryString(mask));
+
+
+
+
+
+
+
+
+
 
     }
 }
