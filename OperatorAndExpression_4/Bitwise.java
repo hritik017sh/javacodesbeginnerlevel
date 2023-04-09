@@ -58,9 +58,24 @@ public class Bitwise {
 
  // how to make every last one to zero with the help of bitwise
 
-     int num=0b110001;
-     int mask=num&num-1;
-     System.out.println(Integer.toBinaryString(mask));
+//     int num=0b110001;
+//     int mask=num&num-1;
+//     System.out.println(Integer.toBinaryString(mask));
+
+        int n=0b11001000;
+        int i=3;
+        i=1<<i;
+       n=n^i;
+       System.out.println(Integer.toString(n));
+
+
+
+
+
+
+
+
+
 
 
 
