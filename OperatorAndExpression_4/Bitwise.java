@@ -62,11 +62,6 @@ public class Bitwise {
 //     int mask=num&num-1;
 //     System.out.println(Integer.toBinaryString(mask));
 
-        int n=0b11001000;
-        int i=3;
-        i=1<<i;
-       n=n^i;
-       System.out.println(Integer.toString(n));
 
 
 
