@@ -61,6 +61,12 @@ public class Bitwise {
 //     int num=0b110001;
 //     int mask=num&num-1;
 //     System.out.println(Integer.toBinaryString(mask));
+        
+//        -----Java Booleans-----
+        boolean isJavaFun=true;
+        boolean isDrugFun=false;
+        System.out.println(isJavaFun);
+        System.out.println(isDrugFun);
 
 
 
