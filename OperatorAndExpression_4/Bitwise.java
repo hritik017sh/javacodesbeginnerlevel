@@ -63,12 +63,27 @@ public class Bitwise {
 //     System.out.println(Integer.toBinaryString(mask));
         
 //        -----Java Booleans-----
-        boolean isJavaFun=true;
-        boolean isDrugFun=false;
-        System.out.println(isJavaFun);
-        System.out.println(isDrugFun);
+//        boolean isJavaFun=true;
+//        boolean isDrugFun=false;
+//        System.out.println(isJavaFun);
+//        System.out.println(isDrugFun);
 
+//        int  x =10;
+//        int y=20;
+//        System.out.println(x<y);
 
+       int myage;
+       int votingage=18;
+     myage=sc.nextInt();
+       if(myage>=votingage)
+       {
+           System.out.println("Person is eligible for voting");
+       }
+       else
+       {
+           System.out.println("Person is not eligible for voting");
+
+       }
 
 
 
