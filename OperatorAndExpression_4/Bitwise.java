@@ -86,21 +86,27 @@ public class Bitwise {
 //
 //       }
 
-        int time=19;
-        if(time<10)
-        {
-            System.out.println("Good Morning");
+//        int time=19;
+//        if(time<10)
+//        {
+//            System.out.println("Good Morning");
+//
+//        }
+//        else if(time<20)
+//        {
+//            System.out.println("Good day");
+//        }
+//       else
+//        {
+//            System.out.println("BAD day");
+//        }
 
-        }
-        else if(time<20)
-        {
-            System.out.println("Good day");
-        }
-       else
-        {
-            System.out.println("BAD day");
-        }
 
+//        ---Short hand ternary operator---
+
+        int time=sc.nextInt();
+        String result=(time<12)?"The time is AM="+time :"Time is PM="+time;
+        System.out.println(result);
 
 
 
