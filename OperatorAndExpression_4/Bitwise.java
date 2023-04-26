@@ -104,9 +104,37 @@ public class Bitwise {
 
 //        ---Short hand ternary operator---
 
-        int time=sc.nextInt();
-        String result=(time<12)?"The time is AM="+time :"Time is PM="+time;
-        System.out.println(result);
+//        int time=sc.nextInt();
+//        String result=(time<12)?"The time is AM="+time :"Time is PM="+time;
+//        System.out.println(result);
+
+//        ----Switch case----
+        int day=sc.nextInt();
+        switch(day)
+        {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+            default:
+                System.out.println("You entered a wrong number. You have to enter  1 to 7 to find weeks");
+        }
 
 
 
