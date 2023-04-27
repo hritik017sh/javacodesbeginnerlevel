@@ -159,11 +159,23 @@ public class Bitwise {
 //
 //        ----For loop----
 
-        for (int i=1;i<=5;i++)
-        {
-            System.out.println(i);
-        }
+//        for (int i=1;i<=5;i++)
+//        {
+//            System.out.println(i);
+//        }
 
+//        ---Nested loop(loop Inside loop)---
+
+        for(int i=1;i<=3;i++)
+        {
+            System.out.println("Outer="+i);
+
+            for(int j=1;j<=4;j++)
+            {
+                System.out.println("Inner = "+j);
+            }
+
+        }
 
 
 
