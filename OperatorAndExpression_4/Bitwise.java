@@ -179,11 +179,15 @@ public class Bitwise {
 
 
 //         ----How to use for each loop----
-       String[] cars={"Royls Royals","Mercedes","Bmw","Ferrari"};
-          for(String i: cars)
-          {
-              System.out.println(i);
-          }
+//       String[] cars={"Royls Royals","Mercedes","Bmw","Ferrari"};
+//          for(String i: cars)
+//          {
+//              System.out.println(i);
+//          }
+
+
+
+
 
 
 
