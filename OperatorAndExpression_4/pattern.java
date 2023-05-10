@@ -166,6 +166,86 @@ public class pattern {
 //             *
 
 
+//        int n=5;
+//        for(int row=0;row<n;row++)
+//        {
+//            for (int col=0;col<row;col++)
+//            {
+//                System.out.print(" ");
+//            }
+//            for(int col=0;col<2*n-(2*row+1);col++)
+//            {
+//                System.out.print("*");
+//            }
+//            for(int col=0;col<row;col++)
+//            {
+//                System.out.print(" ");
+//            }
+//            System.out.println("");
+//        }
+
+
+//                                                  ---Pattern 9---
+//             *
+//            ***
+//           *****
+//          *******
+//         *********
+////       *********
+//          *******
+//           *****
+//            ***
+//             *
+
+
+//        int n=5;
+//        int space=n;
+//        for(int row=0; row<n;row++)
+//        {
+//            for(int col=0;col<n-row-1;col++)
+//            {
+//                System.out.print(" ");
+//            }
+//            for(int col=0;col<2*row+1;col++)
+//            {
+//                System.out.print("*");
+//            }
+//            for(int col=0;col<n-row-1;col++)
+//            {
+//                System.out.print(" ");
+//            }
+//            System.out.println("");
+//
+//
+//
+//
+//        }
+//        for(int row=0; row<=space;row++)
+//        {
+//            for(int col=0;col<row;col++)
+//            {
+//                System.out.print(" ");
+//            }
+//            for(int col=0;col<2*space-(2*row+1);col++)
+//            {
+//                System.out.print("*");
+//            }
+//            for(int col=0;col<row;col++)
+//            {
+//                System.out.print(" ");
+//            }
+//            System.out.println("");
+//        }
+
+
+        //                                           ---Pattern 8---
+////       *********
+//          *******
+//           *****
+//            ***
+//             *
+
+
         int n=5;
         for(int row=0;row<n;row++)
         {
@@ -183,5 +263,11 @@ public class pattern {
             }
             System.out.println("");
         }
+
+
+
+
+
+
     }
 }
