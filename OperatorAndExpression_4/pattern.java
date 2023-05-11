@@ -239,31 +239,21 @@ public class pattern {
 
 
         //                                           ---Pattern 8---
-////       *********
-//          *******
-//           *****
-//            ***
-//             *
+//       1
+//       12
+//       123
+//       1234
+//       12345
 
-
-        int n=5;
-        for(int row=0;row<n;row++)
+        int n=sc.nextInt();
+        for(int row=1;row<=n;row++)
         {
-            for (int col=0;col<row;col++)
+            for(int col=1;col<=row;col++)
             {
-                System.out.print(" ");
-            }
-            for(int col=0;col<2*n-(2*row+1);col++)
-            {
-                System.out.print("*");
-            }
-            for(int col=0;col<row;col++)
-            {
-                System.out.print(" ");
+                System.out.print(col);
             }
             System.out.println("");
         }
-
 
 
 
