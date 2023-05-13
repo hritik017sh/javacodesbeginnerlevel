@@ -239,18 +239,22 @@ public class pattern {
 
 
         //                                           ---Pattern 8---
-//       1
-//       12
-//       123
-//       1234
-//       12345
+//            *
+//           * *
+//          * * *
+//         * * * *
+//        * * * * *
 
-        int n=sc.nextInt();
+        int n=5;
         for(int row=1;row<=n;row++)
         {
-            for(int col=1;col<=row;col++)
+            for(int col=1;col<=n-row;col++)
             {
-                System.out.print(col);
+                System.out.print(" ");
+            }
+            for(int p=1;p<=row;p++)
+            {
+                System.out.print("* ");
             }
             System.out.println("");
         }
@@ -259,5 +263,5 @@ public class pattern {
 
 
 
-    }
+}
 }
