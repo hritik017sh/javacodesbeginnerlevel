@@ -244,24 +244,60 @@ public class pattern {
 //          * * *
 //         * * * *
 //        * * * * *
+//
+//        int n=5;
+//        for(int row=1;row<=n;row++)
+//        {
+//            for(int col=1;col<=n-row;col++)
+//            {
+//                System.out.print(" ");
+//            }
+//            for(int p=1;p<=row;p++)
+//            {
+//                System.out.print("* ");
+//            }
+//            System.out.println("");
+//        }
 
-        int n=5;
-        for(int row=1;row<=n;row++)
-        {
-            for(int col=1;col<=n-row;col++)
-            {
-                System.out.print(" ");
-            }
-            for(int p=1;p<=row;p++)
-            {
-                System.out.print("* ");
-            }
-            System.out.println("");
-        }
+//                                         ---Pattern 9---
+//
+//        1 2 3 4 5 6
+//         2 3 4 5 6
+//          3 4 5 6
+//           4 5 6
+//            5 6
+//             6
+//
+//         int n=6;
+//         for(int row=1;row<=n;row++)
+//         {
+//             for(int col=1;col<row;col++)
+//             {
+//                 System.out.print(" ");
+//             }
+//             for(int p=row;p<=n;p++)
+//             {
+//                 System.out.print(p+" ");
+//             }
+//             System.out.println("");
+//         }
 
 
+//        int n=6;
+//        for(int row=1;row<=n;row++)
+//        {
+//            for(int col=1;col<=n-row;col++)
+//            {
+//                System.out.print(" ");
+//            }
+//            for(int p=1;p<=row;p++)
+//            {
+//                System.out.print("* ");
+//            }
+//            System.out.println("");
+//
+//        }
 
 
-
-}
+    }
 }
