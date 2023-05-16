@@ -299,5 +299,66 @@ public class pattern {
 //        }
 
 
+//                                ---Pattern 10---
+//        * * * * *
+//         * * * *
+//          * * *
+//           * *
+//            *
+
+//        int n=6;
+//        for (int row=1;row<=n;row++)
+//        {
+//            for(int col=1;col<row;col++)
+//            {
+//                System.out.print(" ");
+//
+//            }
+//            for(int col=1;col<n-row+1;col++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println("");
+//        }
+
+//                                         ---Pattern 11---
+//         *****
+//          ****
+//           ***
+//            **
+//             *
+
+
+//        int n=6;
+//        for(int row=1;row<=n;row++)
+//        {
+//            for(int col=1;col<=row;col++)
+//            {
+//                System.out.print(" ");
+//            }
+//            for(int p=1;p<n-row+1;p++)
+//            {
+//                System.out.print("*");
+//            }
+//            System.out.println("");
+//        }
+
+
+       int n=6;
+       int num=0;
+      for(int row=n;row>=1;row--)
+      {
+          for(int col=n;col>=row;col--)
+          {
+              System.out.print(col +" ");
+
+          }
+          System.out.println("");
+       }
+
+
+
+
+
+
     }
 }
