@@ -6,6 +6,12 @@ public class poly_override {
         System.out.println(" Hii sweta 1");
 
     }
+    public void shreya()
+    {
+        System.out.println("Hii anika and kashu");
+
+    }
+
 }
 
     class tanu extends poly_override
@@ -24,8 +30,8 @@ public class poly_override {
         {
             poly_override name=new  tanu();
             name.sweta();
-            name.sweta();
-            name.sweta();
+            name.shreya();
+
         }
     }
 
