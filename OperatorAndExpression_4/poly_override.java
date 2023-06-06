@@ -32,6 +32,8 @@ public class poly_override {
             name.sweta();
             name.shreya();
             name.sweta();
+            name.sweta();
+
 
         }
     }
