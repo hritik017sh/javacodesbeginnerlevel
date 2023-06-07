@@ -30,9 +30,7 @@ public class poly_override {
         {
             poly_override name=new  tanu();
             name.sweta();
-            name.shreya();
-            name.sweta();
-            name.sweta();
+
 
 
         }
