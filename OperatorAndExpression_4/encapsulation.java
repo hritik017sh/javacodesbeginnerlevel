@@ -29,5 +29,6 @@ class encap
         myobj.setage(45);
         myobj.setname("Hritik sharma");
         System.out.println(myobj.getage()+":"+myobj.getname());
+        System.out.println("Vinod sharma");
     }
 }
